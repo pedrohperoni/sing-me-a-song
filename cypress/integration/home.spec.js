@@ -2,7 +2,7 @@
 
 const video = {
   name: `Video Title: ${Math.floor(Math.random() * 100000000)}`,
-  youtubeLink: "https://www.youtube.com/watch?v=jNQXAC9IVRw",
+  youtubeLink: "https://www.youtube.com/watch?v=t2Z9e3Zm1Ag",
 };
 
 describe("Home", () => {
