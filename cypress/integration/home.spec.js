@@ -26,4 +26,17 @@ describe("Home", () => {
     cy.wait("@getRecommendations");
     cy.contains(video.name).parent().find("#upvote").parent().should("have.text", "0");
   });
+
+  it("should navigate to the correct page", () => {
+    cy.visit("http://localhost:3000/");
+
+    cy.contains("Home").click();
+    cy.url().should("equal", "http://localhost:3000/");
+
+    cy.contains("Top").click()
+    cy.url().should("equal", "http://localhost:3000/top");
+
+    cy.contains("Random").click()
+    cy.url().should("equal", "http://localhost:3000/random");
+  })
 });
