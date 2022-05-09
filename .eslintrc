@@ -1,7 +1,7 @@
 {
-   "plugins": ["cypress"],
-   "extends": ["plugin:cypress/recommended"],
-   "rules": {
-     "jest/expect-expect": "off"
-   }
- }
+    "plugins": ["cypress"],
+    "extends": ["plugin:cypress/recommended"],
+    "rules": {
+        "jest/expect-expect": "off"
+    }
+}
