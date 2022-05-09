@@ -15,6 +15,7 @@
 * [NodeJS](https://nodejs.org/en/)
 * [Prisma](https://www.prisma.io/)
 * [PostgreSQL](https://www.postgresql.org/)
+* [Cypress](https://www.cypress.io/)
 
 
 ## Installation and Setup Instructions
